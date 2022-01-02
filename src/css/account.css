@@ -1,0 +1,30 @@
+.count {
+  padding: 30px !important;
+}
+.count .crd {
+  margin: 8px;
+  margin-bottom: 14px;
+}
+.count .aco p {
+  margin-top: 15px !important;
+  font-size: 15px;
+  color: rgb(43, 42, 42);
+}
+.count .aco h2 {
+  font-weight: 900;
+  color: rgb(43, 42, 42);
+}
+.count .aco h3 {
+  font-weight: 800;
+  color: rgb(43, 42, 42);
+}
+.middle {
+  padding: 120px !important;
+  text-align: center !important;
+}
+/****************++++++++++++++++++++About+++++++++++++************/
+.about {
+  padding-top: 120px !important;
+  background-color: var(--main-color);
+  bottom: 0;
+}

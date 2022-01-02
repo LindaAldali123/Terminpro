@@ -1,0 +1,108 @@
+.staff {
+  margin-bottom: 50px;
+  padding: 30px !important;
+  padding-bottom: 60px !important;
+  padding-top: 60px !important;
+}
+.staff h3 {
+    margin-bottom: 25px;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+}
+@media (max-width: 767px) {
+  .staff h3 {
+    font-size: 25px !important;
+  }
+  .staff .card .card-img img {
+    width: 45%;
+  }
+}
+.staff .card {
+  text-align: center !important;
+}
+.staff .card .card-img {
+  text-align: center;
+}
+.staff .card .card-img img {
+  border-radius: 50% !important;
+  width: 37%;
+  height: 76px !important;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: 29px;
+}
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .staff .card .card-img img {
+    width: 32%;
+  }
+}
+.staff .card {
+  border: none;
+}
+.staff .card .card-title {
+  margin-right: 60px;
+  text-align: center;
+}
+@media (max-width: 400px) {
+  .staff .card .card-title {
+    margin-right: 40px !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 490px) {
+  .staff .card .card-title {
+    margin-right: 68px !important;
+  }
+}
+@media screen and (min-width: 490px) and (max-width: 599px) {
+  .staff .card .card-title {
+    margin-right: 87px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .staff .card .card-title {
+    margin-right: 66px !important;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 840px) {
+  .staff .card .card-title {
+    margin-right: 92px !important;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 965px) {
+  .staff .card .card-title {
+    margin-right: 69px !important;
+  }
+}
+@media screen and (min-width: 966px) and (max-width: 1000px) {
+  .staff .card .card-title {
+    margin-right: 76px !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .staff .card .card-title {
+    margin-right: 30px !important;
+  }
+}
+.staff .card .card-title span {
+  text-align: center !important;
+  font-size: 11px;
+  color: rgb(169, 173, 173);
+}
+.staff .card .card-title p {
+  text-align: center;
+}
+.staff .card-evl {
+  text-align: center !important;
+}
+.staff .card-evl p {
+  background-color: rgb(240, 238, 238);
+  padding: 2px;
+  border-radius: 12px;
+  width: 42px;
+  text-align: center !important;
+  margin-top: -25px;
+  margin-left: 42px;
+}
+.staff .card-evl p i {
+  color: #ffd700;
+}

@@ -1,0 +1,247 @@
+/*==========Addser1========*/
+.addservic {
+	margin-top: 120px;
+	margin-bottom: 40px !important;
+}
+.addservic .side {
+	overflow-y: scroll;
+	background-color: var(--ff-color);
+	margin: 10px;
+	padding: 4px;
+}
+.addservic .side h3 {
+	margin-top: -10px !important;
+}
+@media (max-width: 767px) {
+	.addservic .side h3 {
+		margin-left: -1px !important;
+	}
+}
+.addservic .side h3,
+.addservic .side ul {
+	margin: 25px;
+}
+.addservic .side ul li {
+	padding: 10px;
+	margin-top: 32px !important;
+	margin-bottom: 32px !important;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.addservic .side ul li a {
+	color: var(--gray-color);
+}
+.addservic .side ul li a:hover {
+	color: var(--secon-color);
+}
+.addservic .das {
+	padding-top: 20px;
+	padding-right: 25px;
+}
+.addser1 h3,
+.addser2 h3,
+.addser3 h3,
+.addplan h3 {
+	padding-left: 15px;
+	font-weight: 700;
+}
+.addser1 form,
+.addser2 form,
+.addser3 form {
+	margin: auto;
+	padding-right: 100px !important;
+	padding-top: 20px !important;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+.addplan form {
+	margin: auto;
+	padding-right: 60px !important;
+	padding-top: 20px !important;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+.addser1 form .form-group,
+.addser3 form .form-group,
+.addplan form .form-group {
+	display: flex;
+}
+.addser1 form .pages {
+	background-color: var(--main-color);
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 700;
+}
+.addser1 form label,
+.addser2 form label,
+.addser3 form label,
+.addplan form label {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.addser1 form .pages a {
+	color: var(--black-color);
+}
+.add form label {
+	display: block;
+}
+.addser1 form .form-group .form-wrapper,
+.addser3 form .form-group .form-wrapper,
+.addplan form .form-group .form-wrapper {
+	width: 50%;
+}
+.addser1 form .fa,
+.addser2 form .fa,
+.pay form .fa,
+.addser3 form .fa,
+.addplan form .fa,
+.addser5 form .fa,
+form .fa {
+	padding-right: 4px;
+	padding-left: 2px;
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--blu-color);
+}
+.addser1 form .fa:hover,
+.addser2 form .fa:hover,
+.pay form .fa:hover,
+.addser3 form .fa:hover,
+.addplan form .fa:hover,
+.addser5 form .fa:hover {
+	color: var(--secon-color);
+}
+/*=======Addser2======*/
+
+/*======Addser3=====*/
+.addser1 form .form-group,
+.addser2 form .form-group,
+.addser3 form .form-group,
+.addplan form .form-group {
+	padding-bottom: 1px;
+}
+.addser1 form .form-wrapper select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 16px;
+	border: 1px solid #ccc;
+}
+.addser1 form .form-group input,
+.addser2 form .form-group input,
+.addser3 form .form-group input,
+.addplan form .form-group input {
+	padding-bottom: 4px !important;
+}
+.addser1 form .Button button,
+.addser2 form .Button button,
+.addser3 form .Button button,
+.addplan form .Button button {
+	margin-top: 10px;
+	padding: 8px;
+	font-weight: 900;
+	color: var(--white-color);
+	background-color: var(--blu-color);
+	box-shadow: 0 4px 8px 0 rgba(128, 127, 127, 0.2), 0 6px 20px 0 rgba(134, 134, 134, 0.19);
+	border: 2px solid var(--secon-color);
+	border-radius: 6px;
+}
+/*=======Addser33=====*/
+/*=======Payser4=======*/
+.pay form {
+	background-color: var(--white-color);
+	padding-right: 50px;
+	padding-top: 50px !important;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+/*========Addser5========*/
+.addser5 form {
+	background-color: var(--white-color);
+	padding-right: 50px;
+	padding-top: 50px !important;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+/*=========Button=======*/
+.addservic .bu .add button {
+	text-align: right !important;
+	float: left;
+	margin-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 5px;
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+	background-color: var(--blu-color);
+	color: var(--white-color);
+	font-weight: 700;
+	border: 3px solid #ccc;
+}
+.addservic .bu .nex,
+.addservic .bu .pre {
+	padding: 8px;
+	text-align: center !important;
+}
+.addservic .bu .nex button,
+.addservic .bu .pre button {
+	padding: 8px;
+	text-align: center !important;
+	width: 16%;
+	background-color: var(--main-color) !important;
+	border: 1px solid var(--main-color);
+	color: var(--black-color);
+	font-weight: 700;
+}
+.addservic .bu .nex button:hover,
+.addservic .bu .pre button:hover {
+	background-color: var(--secon-color) !important;
+	color: var(--ff-color);
+	border: 1px solid var(--second-color);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.addservic .bu {
+	text-align: center;
+}
+@media (max-width: 767px) {
+	.addservic .side ul li {
+		display: none;
+	}
+	.addservic .side {
+		overflow-y: hidden;
+	}
+	.addservic .das {
+		margin-top: -60px !important;
+	}
+	.addser1 form,
+	.addplan form,
+	.addser2 form,
+	.addser3 form {
+		padding-right: 0px !important;
+	}
+	.addser1 form .form-group .form-wrapper,
+	.addser3 form .form-group .form-wrapper,
+	.addplan form .form-group .form-wrapper {
+		width: 100% !important;
+	}
+}
+.addservic .add button {
+	padding: 12px !important;
+	width: 300px;
+	text-align: left !important;
+	font-weight: 700;
+	font-size: 16px;
+}
+.Button input{
+    background-color: var(--black-color); 
+    color:#FFF;
+    padding:12px;
+    border-radius: 6px;
+}
+.form-wrapper img {
+	width: 50%;
+	height: 200px;
+}

@@ -1,0 +1,39 @@
+.footer {
+	padding: 7px;
+	background-color: var(--black-color);
+}
+.footer .foot {
+	padding-top: 38px;
+	padding-bottom: 32px;
+}
+.footer ul li {
+	list-style: none;
+	padding-top: 12px;
+}
+.footer button {
+	padding: 10px;
+	background-color: rgb(10, 10, 10);
+	box-shadow: 0 4px 8px 0 rgba(59, 59, 59, 0.2), 0 6px 20px 0 rgba(46, 46, 46, 0.19);
+	color: var(--white-color);
+	width: 170px;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 8px;
+}
+.footer ul li a {
+	text-decoration: none;
+	color: rgb(252, 247, 247);
+	padding: 2px;
+	font-size: 14px;
+}
+.footer ul .awo .fa {
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: rgb(163, 162, 162);
+}
+.footer .end {
+	padding-bottom: 20px;
+	color: rgb(180, 179, 179);
+}

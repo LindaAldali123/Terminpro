@@ -1,0 +1,211 @@
+/* Contact section */
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.cont {
+  padding-bottom: 30px;
+  margin-top: 160px;
+}
+
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+.contac {
+  background-color: var(--main-color);
+}
+.contact-us .con .conn {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.contact-us .con .col-md-4 {
+  background-color: var(--black-color);
+}
+.contact-us .con .col-md-4 .info {
+  width: 100% !important;
+  border-radius: 5px;
+  padding: 30px;
+  padding-top: 98px;
+  padding-bottom: 80px;
+  left: 0;
+}
+.contact-us .con .col-md-8 .inf {
+  background-color: #fff;
+  padding: 30px;
+  padding-top: 98px;
+  padding-bottom: 80px;
+}
+.contact-us .info {
+  width: 100%;
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .contact-us .info i {
+    width: 24px;
+    height: 24px;
+    font-size: 17px;
+    margin-left: -27px;
+  }
+  .contact-us .info h4 {
+    margin-left: -27px;
+  }
+  .contact-us .info p {
+    margin-left: -27px;
+  }
+}
+.contact-us .info i {
+  font-size: 20px;
+  color: #01243d;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-us .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--white-color);
+}
+
+.contact-us .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.contact-us .info .email,
+.contact-us .info .phone {
+  padding-top: 40px;
+}
+
+.contact-us .info .email:hover i,
+.contact-us .info .address:hover i,
+.contact-us .info .phone:hover i {
+  background: #01223a;
+  color: #fff;
+}
+
+.contact-us .php-email-form {
+  width: 100%;
+  background: #fff;
+}
+
+.contact-us .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact-us .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-us .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact-us .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact-us .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact-us .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-us .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact-us .php-email-form input,
+.contact-us .php-email-form textarea {
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact-us .php-email-form input:focus,
+.contact-us .php-email-form textarea:focus {
+  border-color: #006fbe;
+}
+
+.contact-us .php-email-form input {
+  height: 44px;
+}
+
+.contact-us .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact-us .php-email-form button[type="submit"] {
+  background: var(--black-color);
+  border: 0;
+  padding: 16px 30px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact-us .php-email-form button[type="submit"]:hover {
+  background: var(--secon-color);
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

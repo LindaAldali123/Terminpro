@@ -1,0 +1,158 @@
+.cate-detail {
+	margin-top: 130px;
+	margin-bottom: 20px;
+	padding:30px !important;
+}
+.cate-detail h3 {
+	padding-bottom: 40px !important;
+	padding-left: 18px;
+	font-weight: bold;
+}
+.cate-detail h5 {
+	padding-bottom: 6px !important;
+	padding-left: 18px;
+	color: gray;
+}
+.cate-detail .item .card {
+	width: 350px !important;
+	border-radius: 8px;
+	margin: 20px;
+	background-color: var(--white-color) !important;
+	box-shadow: 0 4px 8px 0 rgba(128, 127, 127, 0.2), 0 6px 20px 0 rgba(134, 134, 134, 0.19);
+	cursor: pointer;
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+	.cate-detail .item .card {
+		width: 240px !important;
+	}
+	.cate-detail .card .card-img {
+		width: 240px !important;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+	.cate-detail .item .card {
+		width: 360px !important;
+	}
+	.cate-detail .card .card-img {
+		width: 360px !important;
+	}
+}
+@media (max-width: 767px) {
+	.cate-detail .item .card {
+		margin-left: 12px !important;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+	.cate-detail .item .card {
+		margin-left: -12px !important;
+	}
+}
+@media (max-width: 322px) {
+	.cate-detail .item .card {
+		margin-left: 2px !important;
+		width: 245px !important;
+	}
+	.cate-detail .card .card-img {
+		width: 245px !important;
+	}
+}
+.cate-detail .card .card-img {
+	width: 348px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.cate-detail .card .card-img img {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+    height: 160px;
+    width:100%;
+}
+.cate-detail .card .card-img img:hover {
+	-webkit-filter: brightness(70%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.cate-detail .card .card-img .lik {
+	float: right;
+	position: absolute;
+	z-index: 2;
+	margin-right: -7px !important;
+	top: 6px;
+	justify-content: center;
+	color: rgb(235, 235, 235);
+	font-size: 25px;
+	width: 54px;
+	height: 30px;
+	padding: 5px 0 0 0;
+}
+.cate-detail .card .card-img .slider .carousel-inner img {
+	/*width: 298px !important;*/
+	height: 164px !important;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.cate-detail .row {
+	margin-top: 20px;
+}
+.cate-detail .card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cate-detail .card .card-title {
+	padding: 4px;
+	font-size: 18px;
+    font-weight: 800;
+}
+.cate-detail .card .card-subtitle {
+	margin-top: -14px;
+	padding: 4px;
+	font-size: 15px;
+	color: rgb(145, 143, 143);
+}
+.cate-detail .card .card-foot {
+	margin-top: -4px;
+	padding: 4px;
+	font-size: 15px;
+}
+.cate-detail .card .card-foot .fa {
+	color: #ffd700;
+    margin: 2px !important;
+    font-weight: bold;
+}
+.cate-detail .card .card-foot span {
+	color: rgb(145, 143, 143);
+}
+.cate-detail .card .card-end {
+	margin-top: -4px;
+	padding: 4px;
+	font-size: 13px;
+	color: var(--second-color);
+}
+.cate-detail .card .card-end p {
+	text-align: center;
+	width: 80px;
+	border-radius: 8px;
+	padding: 2px;
+	background-color: rgb(192, 227, 238);
+}
+/*================================*/
+.next {
+	text-align: center;
+}
+.next button {
+	text-align: center !important;
+	background-color: var(--main-color);
+	color: var(--second-color);
+	font-weight: bold;
+	font-size: 17px;
+	padding: 5px;
+	width: 80px;
+	margin: 3px;
+	border: 1px solid rgb(228, 225, 225);
+}
+.next button:hover {
+	color: var(--secon-color);
+	border: 1px solid #ccc;
+}

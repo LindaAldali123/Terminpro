@@ -1,0 +1,54 @@
+.services {
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+    padding: 30px;
+    padding-bottom: 60px !important;
+    padding-top: 60px !important;
+}
+.services .t {
+	font-weight: 800 !important;
+	line-height: 1.7ch;
+	font-size: 32px !important;
+	margin-bottom: 40px !important;
+}
+.services .ti:hover {
+	background-color: none;
+}
+.services .serv .fa {
+	font-size: 32px;
+	color: rgb(141, 140, 140);
+}
+.services h4 {
+	background-color: var(--main-color);
+	width: 230px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding: 4px;
+	font-size: 18px !important;
+	font-weight: 600;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+.services h4 span {
+	background-color: var(--white-color);
+	padding: 7px;
+	border-radius: 50%;
+	font-size: 12px;
+	width: 40px !important;
+	height: 40px !important;
+	margin-bottom: 3px !important;
+}
+.services .serv h5 {
+	font-size: 19px !important;
+	font-weight: 600;
+}
+.services .serv h6 {
+	font-size: 15px !important;
+	color: var(--gray-color);
+}
+.services .serv p {
+	font-size: 12px !important;
+}
+.services .serv .col-md-2 {
+	font-weight: 600;
+}

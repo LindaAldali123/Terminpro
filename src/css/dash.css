@@ -1,0 +1,130 @@
+.dashboard {
+  margin-top: 80px;
+}
+.dashboard h3 {
+  color: var(--second-color);
+  padding-left: 30px;
+  font-weight: 900;
+}
+.dash .h {
+  font-weight: 1200;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  padding: 28px;
+}
+.dash .h span a {
+  font-weight: 1200;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+.dash .h span a:hover {
+  color: var(--white-color) !important;
+}
+.dash ul {
+  text-align: center !important;
+  overflow-y: scroll;
+  background-color: var(--main-color);
+  border-bottom: 1px solid #ccc;
+}
+@media (max-width: 767px) {
+  .dash .si {
+    display: none !important;
+  }
+}
+.dash ul li {
+  list-style: none;
+  padding: 40px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+  text-align: left !important;
+  border-bottom: 1px solid #ccc;
+}
+.dash ul li:hover {
+  background-color: var(--fff-color);
+  color: var(--second-color);
+}
+
+.btton {
+  text-align: left;
+  margin-left: 5px;
+}
+.rj {
+  margin-top: 1px;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  left: 0;
+  width: 80px;
+  font-weight: 600;
+  height: 34px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .rj {
+    margin-left: -36px !important;
+  }
+}
+.rj {
+  background-color: var(--red-color);
+  border: 1px solid var(--red-color);
+  color: var(--white-color);
+}
+
+@media (max-width: 1200px) {
+  .board4 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 574px) {
+  .board4 .dash4 {
+    width: 100% !important;
+    margin-right: 10px;
+  }
+}
+@media screen and(min-width:768) and(max-width:1200px) {
+  .rj {
+    margin-bottom: 2px !important;
+  }
+}
+
+/*====== End DashBoard 1========*/
+.dash .Events {
+  margin-top: 20px;
+}
+.dash .Evn {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.dash .Evn h4 a {
+  font-size: 18px;
+  font-weight:700;
+  color: black;
+}
+.dash .Evn time {
+  font-size: 12px;
+}
+.board4 .col-md-8 img {
+  border-radius: 5px;
+  width: 60px;
+  height: 80px;
+  margin-left: -8px !important;
+}
+@media (max-width: 992px) {
+  .board4 .col-md-8 img {
+    width: 140px;
+    height: 90px;
+  }
+}
+.dash .Evn .btto {
+  margin-top: 20px;
+}
+
+.dash4 {
+  width: 98%;
+  padding: 18px;
+  margin-right: 80px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,27 @@
+.pay .item .card {
+	padding: 8px !important;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	box-shadow: 0 4px 8px 0 rgba(128, 127, 127, 0.2), 0 6px 20px 0 rgba(134, 134, 134, 0.19);
+}
+.pay .item .card:hover {
+	box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2), 0 6px 20px 0 rgba(8, 8, 8, 0.19);
+}
+.pay .item .card .card-title {
+	padding-top: 6px;
+	font-weight: 800;
+	font-size: 17px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ccc;
+}
+.pay .item .card .card-body {
+	margin-top: -12px;
+	margin-bottom: -4px;
+	color: var(--blu-color);
+	font-weight: 700;
+}
+.pay .item .card .card-footer {
+	font-size: 15px;
+	font-weight: 900;
+}

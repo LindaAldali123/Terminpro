@@ -1,0 +1,245 @@
+.bookser {
+	margin-top: -250px;
+	margin-bottom: 80px;
+}
+.bookser .bser h3 {
+	padding: 8px;
+	font-weight: bold;
+}
+.bookser .bser input[type='checkbox'] {
+	width: 48px;
+	height: 48px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	margin-left: 30px !important;
+	border-radius: 50%;
+	text-align: center !important;
+	cursor: pointer;
+	border-radius: 50%;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	vertical-align: middle;
+	background-color: #fff;
+}
+.bookser .bser input[type='checkbox']:checked {
+	background-color: var(--black-color);
+}
+.bookser .bser .pric {
+	font-weight: 800;
+	letter-spacing: 1.6;
+	font-size: 15px;
+}
+.bookser .bser .ock {
+	color: rgb(146, 146, 146);
+}
+.bookser .bins {
+	width: 100%;
+	border-radius: 5px;
+	padding: 20px;
+	padding-bottom: 50px;
+	background-color: var(--white-color);
+	-webkit-box-shadow: 0 15px 30px 0 rgba(37, 37, 37, 0.2);
+	box-shadow: 0 15px 30px 0 rgba(37, 37, 37, 0.2);
+}
+.booking .backeve {
+	margin-top: 0px !important;
+	height: 400px;
+	width: 100%;
+	background-image: linear-gradient(transparent, #02050c77), url('../assets/background.jpg') !important;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	z-index: -1;
+}
+.bookser .bins .img img {
+	width: 130px;
+	height: 82px;
+	text-align: center !important;
+	border-radius: 5px;
+	margin-left: 86px;
+	border: 2px solid rgb(71, 70, 70);
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 994px) and (max-width: 1200px) {
+	.bookser .bins .img img {
+		width: 100px;
+		margin-left: 80px;
+	}
+	.bookser .bins {
+		padding: 12px;
+	}
+	.bookser .bins .ret {
+		margin-left: 140px !important;
+		font-size: 14px !important;
+	}
+	.bookser .bser input[type='checkbox'] {
+		margin-left: 15px !important;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 993px) {
+	.bookser .bins .img img {
+		width: 100px;
+		margin-left: 40px;
+	}
+	.bookser .bins {
+		padding: 12px;
+	}
+	.bookser .bins .ret {
+		margin-left: 140px !important;
+		font-size: 14px !important;
+	}
+	.bookser .bser input[type='checkbox'] {
+		margin-left: 15px !important;
+	}
+}
+@media (max-width: 767px) {
+	.bookser .bins .ret {
+		font-weight: bold !important;
+		color: var(--second-color) !important;
+	}
+	.bookser .bins {
+		margin-top: 96px !important;
+	}
+	.bookser .bins .img img {
+		margin-left: 192px !important;
+		text-align: center !important;
+	}
+}
+.stf {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(221, 218, 218);
+	cursor: pointer;
+}
+.stf:hover {
+	background-color: var(--main-color);
+}
+.bookser .bser .se {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(221, 218, 218);
+	cursor: pointer;
+}
+.bookser .bins .bo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(221, 218, 218);
+}
+.bookser .bins .ret {
+	color: var(--main-color);
+	margin-right: -60px !important;
+	padding-left: 20px;
+	font-size: 17px;
+	margin-left: 180px;
+	margin-bottom: 20px;
+	margin-top: -106px !important;
+}
+.bookser .bins button {
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 900;
+	color: var(--white-color);
+	background-color: rgb(10, 9, 9);
+	font-size: 17px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 5px;
+}
+.bookser .bins h4 {
+	margin-top: 12px;
+	text-align: center;
+}
+.bookser .bins h6 {
+	text-align: center;
+}
+/*================================================BookStaff==================*/
+.bokstaf {
+}
+.bokstaf h3 {
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: -12px !important;
+	padding-bottom: 8px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+.bokstaf .fa-user-o {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	border-radius: 50%;
+	background-color: var(--main-color);
+}
+.bokstaf .fa-user {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	font-size: 24px;
+	border-radius: 50%;
+	background-color: var(--main-color);
+}
+.bokstaf h4 {
+	cursor: pointer;
+	padding-top: 6px;
+	padding-bottom: 8px;
+}
+.bokstaf .fa-chevron-right {
+	margin-bottom: -6px !important;
+}
+/*======================================*/
+.boktim {
+}
+.boktim .ti {
+	padding-top: 20px !important;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(221, 218, 218);
+	cursor: pointer;
+}
+.boktim h3 {
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: -12px !important;
+	padding-bottom: 8px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+.bookser .dat input {
+	text-align: center !important;
+	width: 100%;
+	padding: 10px;
+	direction: ltr !important;
+	color: var(--second-color);
+	border: 1px solid var(--second-color);
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.ti:hover {
+	background-color: var(--main-color);
+}
+.activ {
+	background-color: var(--main-color);
+}
+.boktim .fa-calendar-check-o {
+	font-size: 24px;
+}
+.bold {
+	font-weight: bold !important;
+}
+.bookser .box {
+	margin-bottom: 20px !important;
+	padding: 30px;
+	padding-bottom: 40px;
+	border-radius: 5px;
+	background-color: var(--white-color);
+	-webkit-box-shadow: 0 15px 30px 0 rgba(37, 37, 37, 0.2);
+	box-shadow: 0 15px 30px 0 rgba(37, 37, 37, 0.2);
+}

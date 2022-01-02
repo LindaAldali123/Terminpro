@@ -1,0 +1,196 @@
+.venues {
+	margin-bottom: 34px;
+	padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding: 30px !important;
+}
+.venues h3 {
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: var(--black-color);
+	font-size: 42px;
+	margin-left: 15px;
+}
+@media (max-width: 767px) {
+	.venues h3 {
+		font-size: 32px;
+	}
+}
+.venues .card {
+	width: 280px;
+	height: 266px;
+	border-radius: 8px;
+	margin: 20px;
+	background-color: var(--white-color) !important;
+	box-shadow: 0 4px 8px 0 rgba(128, 127, 127, 0.2), 0 6px 20px 0 rgba(134, 134, 134, 0.19);
+	cursor: pointer;
+}
+@media (min-width: 1540px) {
+	.venues .card {
+		width: 370px !important;
+		height: 299px !important;
+	}
+	.venues .card .card-image img {
+		width: 368px !important;
+		height: 150px !important;
+	}
+	.venues .card .card-title {
+		font-size: 22px !important;
+	}
+	.venues .card .card-subtitle {
+		font-size: 17px !important;
+	}
+}
+@media (min-width: 1890px) {
+	.venues .card {
+		width: 398px !important;
+		height: 299px !important;
+	}
+	.venues .card .card-image img {
+		width: 396px !important;
+		height: 150px !important;
+	}
+	.venues .card .card-title {
+		font-size: 22px !important;
+	}
+	.venues .card .card-subtitle {
+		font-size: 17px !important;
+	}
+}
+@media (min-width: 2000px) {
+	.venues .card {
+		width: 100% !important;
+		height: 299px !important;
+		margin: 30px !important;
+	}
+	.venues .card .card-image img {
+		width: 100% !important;
+		height: 150px !important;
+	}
+	.venues .card .card-title {
+		font-size: 22px !important;
+	}
+	.venues .card .card-subtitle {
+		font-size: 17px !important;
+	}
+}
+.venues .card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.venues .card .card-title {
+	padding: 5px;
+	font-size: 16px;
+	font-weight: 700;
+	color: rgb(22, 22, 22);
+}
+.venues .card .card-subtitle {
+	margin-top: -14px;
+	padding: 5px;
+	font-size: 15px;
+	color: rgb(133, 133, 133);
+}
+.venues .card .card-foot {
+	margin-top: -4px;
+	padding: 5px;
+	font-size: 15px;
+}
+.venues .card .card-foot .fa {
+	color: #ffd700;
+	font-size: 17px !important;
+	margin: 1px !important;
+}
+.venues .card .card-foot span {
+	color: rgb(82, 81, 81);
+}
+.venues .card .card-end {
+	margin-top: -4px;
+	padding: 5px;
+	font-size: 13px;
+	color: var(--second-color);
+}
+.venues .card .card-end p {
+	text-align: center;
+	width: 80px;
+	border-radius: 8px;
+	padding: 2px;
+	background-color: rgb(192, 227, 238);
+}
+.venues .card .card-image img {
+	width: 278px;
+	height: 131px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.venues .card .card-image img:hover {
+	-webkit-filter: brightness(70%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+	.venues .card {
+		width: 245px !important;
+	}
+	.venues .card .card-image img {
+		width: 243px !important;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+	.venues .card {
+		width: 196px !important;
+		height: 260px;
+	}
+	.venues .card .card-image img {
+		width: 194px !important;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 825px) {
+	.venues .card {
+		width: 186px !important;
+		height: 260px;
+	}
+	.venues .card .card-image img {
+		width: 184px !important;
+	}
+}
+@media screen and (min-width: 360px) and (max-width: 410px) {
+	.venues .card {
+		width: 300px !important;
+		height: 260px;
+		margin-left: -6px !important;
+	}
+	.venues .card .card-image img {
+		width: 298px !important;
+		height: 135px;
+	}
+}
+@media screen and (min-width: 410px) and (max-width: 509px) {
+	.venues .card {
+		width: 340px !important;
+		height: 270px;
+		margin-left: -6px !important;
+	}
+	.venues .card .card-image img {
+		width: 338px !important;
+		height: 150px;
+	}
+}
+@media screen and (min-width: 510px) and (max-width: 767px) {
+	.venues .card {
+		width: 460px !important;
+		height: 300px;
+		margin-left: -6px !important;
+	}
+	.venues .card .card-image img {
+		width: 458px !important;
+		height: 170px;
+	}
+}
+@media (max-width: 290px) {
+	.venues .card {
+		margin-left: -1px !important;
+	}
+}

@@ -1,0 +1,14 @@
+.Error {
+	margin-top: 240px;
+	font-size: 54px;
+	text-align: center !important;
+	font-weight: bold;
+	color: rgb(196, 4, 4);
+}
+.Sucess {
+	margin-top: 240px;
+	font-size: 54px;
+	text-align: center !important;
+	font-weight: bold;
+	color: var(--second-color);
+}
